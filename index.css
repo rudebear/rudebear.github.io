@@ -1,5 +1,5 @@
-.item {
-
+.item:hover {
+    filter: brightness(0.5);
 }
 
 .container {
