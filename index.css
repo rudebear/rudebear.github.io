@@ -1,9 +1,12 @@
+
 .item:hover {
     filter: brightness(0.5);
 }
 
 .container {
     display: grid;
+    grid-template: auto auto auto auto;
+    padding: 2px;
 }
 
 body {
