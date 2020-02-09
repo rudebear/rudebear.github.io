@@ -1,7 +1,7 @@
 .item {
-    flex: 25%;
-    max-width: 25%;
-    vertical-align: middle;
+    position: relative;;
+    height: 200px;
+    width: 200px;
 }
 
 .item:hover .item_description {
