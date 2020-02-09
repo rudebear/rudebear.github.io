@@ -4,13 +4,28 @@
     vertical-align: middle;
 }
 
-.item:hover {
-    filter: brightness(0.5);
+.item:hover .item_description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.item_description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(red, green, blue, 0.5);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    transition: opacity .2s, visibility .2s;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 200px 400px;
     grid-template-rows: 200px 200px;
     gap: 2px;
     padding: 2px;
