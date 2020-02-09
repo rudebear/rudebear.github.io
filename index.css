@@ -54,10 +54,17 @@
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-image: linear-gradient(rgb(52, 112, 150), rgb(42, 42, 117));
+    /* background-image: linear-gradient(rgb(52, 112, 150), rgb(42, 42, 117)); */
     max-width: 960px;
     margin: auto;
     text-align: center;
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#347096+0,2a2a75+100 */
+    background: #347096; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #347096 0%, #2a2a75 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #347096 0%,#2a2a75 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #347096 0%,#2a2a75 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#347096', endColorstr='#2a2a75',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 h1 {
