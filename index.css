@@ -36,7 +36,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .item_software:hover {
@@ -64,7 +64,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     /* background-image: linear-gradient(rgb(52, 112, 150), rgb(42, 42, 117)); */
-    max-width: 960px;
+    max-width: 720px;
     margin: auto;
     text-align: center;
 
