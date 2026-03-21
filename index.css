@@ -109,3 +109,10 @@ p {
     color: white;
     padding: 5px;
 }
+
+.book {
+	position: relative;
+	width: 400px;
+	height: 600px;
+	text-align: center;
+}
